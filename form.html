@@ -1,0 +1,65 @@
+<html>
+<head>
+
+<style>
+h1
+{
+color:green;
+text-decoration: yellow;
+}
+
+body{
+background-color:rgb(4,29,49);
+}
+
+label{
+color:white
+}
+
+</style>
+
+</head>
+<body>
+<table>
+
+<center>
+
+<h1>Student Form </h1>
+
+<hr/>
+
+<form id="form1" autocomplete="off" action="Register.java" method="GET">
+
+<label for="studentname">Student Name:</label>
+<input type="text"id="studentname" name="t1" placeholder="Enter Your Name" autofocus required />
+
+<br/> <br/>
+<label for="studentage">Student Age:</label>
+<input type="number" id="studentage" placeholder="Enter"min="20" max="100" name="t2"/>
+
+<br/> <br/>
+
+<label for="email">Email ID:</label>
+<input type="email" id="email" name="t3"/>
+
+<br/> <br/>
+
+<label for="pincode">Pin code:</label>
+<input type="text" id="pincode" name="t4" pattem="\d{6}"/>
+
+<br/> <br/>
+
+<label for="date">Join Date:</label>
+<input type="date" id="date" name="t5" />
+
+<br/> <br/>
+
+<p>are you agree terms and conditions?</p>
+<input form="form1" type="checkbox" name="ck 1" value="yes" />
+
+<br/><br/>
+
+<input type="submit" value="Register"/>
+
+</form><br/>
+
